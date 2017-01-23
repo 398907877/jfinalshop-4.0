@@ -8,21 +8,34 @@
     <version>1.0-SNAPSHOT</version>
   </parent>
   
-  <artifactId>jfinalshop-4.0-model</artifactId>
-  <packaging>jar</packaging>
-    
-  <name>jfinalshop-4.0-model</name>
+  <artifactId>jfinalshop-4.0-api</artifactId>
+  <packaging>war</packaging>
+  
+  <name>jfinalshop-4.0-api Maven Webapp</name>
   <url>http://maven.apache.org</url>
   
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
   </properties>
   
-  <dependencies> 
+  <dependencies>
     <dependency>
       <groupId>com.jfinalshop</groupId>
-      <artifactId>jfinalshop-4.0-common</artifactId>
-      <version>${project.version}</version>
+  	  <artifactId>jfinalshop-4.0-core</artifactId>
+  	  <version>${project.version}</version>
     </dependency>
   </dependencies>
+  <build>
+    <finalName>jfinalshop-4.0-api</finalName>
+   		<plugins>
+	       <plugin>
+	          <groupId>org.apache.maven.plugins</groupId>
+	          <artifactId>maven-war-plugin</artifactId>
+	          <configuration>
+	              <attachClasses>true</attachClasses>
+			 	  <archiveClasses>true</archiveClasses>
+	          </configuration>
+	        </plugin>
+ 		</plugins>
+  </build>
 </project>

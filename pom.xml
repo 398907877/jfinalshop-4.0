@@ -27,5 +27,7 @@
     <module>jfinalshop-4.0-common</module>
     <module>jfinalshop-4.0-core</module>
     <module>jfinalshop-4.0-web</module>
+    <module>jfinalshop-4.0-api</module>
+    <module>jfinalshop-4.0-dao</module>
   </modules>
 </project>

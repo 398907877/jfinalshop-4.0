@@ -1,7 +1,8 @@
-package com.jfinalshop;
+package com.jfinalshop.api;
 
 /**
- * Hello world!
+ * 
+ * @author lihongyuan
  *
  */
 public class App {

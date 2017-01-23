@@ -13,32 +13,32 @@ public class JFWebConfig extends JFinalConfig {
 	@Override
 	public void configConstant(Constants me) {
 		// TODO Auto-generated method stub
-		
+
 	}
 
 	@Override
 	public void configRoute(Routes me) {
 		// TODO Auto-generated method stub
 		me.add("test", TestController.class);
-		
+
 	}
 
 	@Override
 	public void configPlugin(Plugins me) {
 		// TODO Auto-generated method stub
-		
+
 	}
 
 	@Override
 	public void configInterceptor(Interceptors me) {
 		// TODO Auto-generated method stub
-		
+
 	}
 
 	@Override
 	public void configHandler(Handlers me) {
 		// TODO Auto-generated method stub
-		
+
 	}
 
 }
