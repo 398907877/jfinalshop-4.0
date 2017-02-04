@@ -72,7 +72,7 @@ JFinalShop商城系统是B2C模式的电子商城，是在JFinal基础上搭建�
 3. 捐赠下载jfinalshop 4.0二次开发，详细介绍请先联系QQ:187048359。
 
 ## 演示地址
-前台http://demo.jfinalshop.com[查看](http://demo.jfinalshop.com)；
-后台http://demo.jfinalshop.com/admin[查看](http://demo.jfinalshop.com/admin)；
+前台请点[查看](http://demo.jfinalshop.com)；
+后台请点[查看](http://demo.jfinalshop.com/admin)；
 后台用户名：jack 
 后台密码：123456
