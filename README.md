@@ -33,7 +33,7 @@ JFinalShop商城系统是B2C模式的电子商城，是在JFinal基础上搭建�
 
 1、后端
 
-* 核心框架：JFinal 2.2, JFinal-ext2 2.0.5
+* 核心框架：JFinal 3.0, JFinal-ext2 2.0.5
 * 安全框架：Apache Shiro 1.3.2
 * 数据库连接池：Alibaba Druid 1.0.27
 * 缓存框架：Ehcache 2.10.2
@@ -75,3 +75,7 @@ JFinalShop商城系统是B2C模式的电子商城，是在JFinal基础上搭建�
 1.前台 demo.jfinalshop.com 请点[查看](http://demo.jfinalshop.com)；
 2.后台 demo.jfinalshop.com/admin 请点[查看](http://demo.jfinalshop.com/admin)；
 3.用户名/密码：jack/123456
+
+## h5商城演示界面
+![输入图片说明](https://static.oschina.net/uploads/space/2017/0214/192610_xnZT_566102.png "h5商城演示界面")
+
